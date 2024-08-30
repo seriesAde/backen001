@@ -21,9 +21,23 @@ foreach ($x as $item) {
 
 
 ?>
-<script>
+<!-- <script>
     let x = ["mango", "orange", "pawpaw"];
     x.forEach((item) => {
         console.log(item);
     })
-</script>
+</script> -->
+
+<?php
+$x = ['mango', 'orange', 'pawpaw'];
+foreach ($x as $item) {
+    if($item == 'orange') {
+        break;
+    }
+    echo "<br>" . $item;
+}
+// u can also use continue function in place of break statement
+h
+
+
+?>
