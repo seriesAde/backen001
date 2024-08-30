@@ -37,7 +37,8 @@ foreach ($x as $item) {
     echo "<br>" . $item;
 }
 // u can also use continue function in place of break statement
-h
+
+
 
 
 ?>
