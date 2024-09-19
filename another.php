@@ -38,7 +38,10 @@ foreach ($x as $item) {
 }
 // u can also use continue function in place of break statement
 
-
+function doSomething($name){
+    echo "hello world";
+}
+doSomething($name);
 
 
 ?>
